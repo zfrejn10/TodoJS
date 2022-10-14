@@ -1,0 +1,106 @@
+h1 {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.form {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.form label {
+    display: block;
+    text-align: center;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+.search {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 40px;
+}
+.search input {
+    width: 40%;
+    height: 25px;
+    border-radius: 5px;
+    border: 2px solid green;
+    margin-top: 5px;  
+}
+.search .add {
+    margin-left: 10px;
+    height: 30px;
+    color: black;
+    background: linear-gradient(45deg, rgb(207, 175, 154) 24%, rgb(86, 181, 184));
+    border-radius: 5px;
+    border: 1px solid rgb(58, 145, 11)
+}
+.search button:hover {
+    transform: scale(1.1);
+    border: 1px solid black;
+}
+.search input:hover {
+    border-color: black;
+}
+.taskList {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.taskList li {
+    list-style: none;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 15px;
+    height: 30px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    color: darkcyan;
+}
+.taskList li::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.content {
+    margin: 0;
+}
+.wrapper {
+    float: right;
+    width: 120px;
+}
+.wrapperCont {
+    float: left;
+    max-width: 60%;
+    max-height: 80px;
+}
+.doneBtn, .delBtn {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2.5%;
+}
+.doneBtn {
+    margin-right: 5%;
+    background-color: rgb(48, 190, 98);
+}
+.delBtn {
+    background-color: rgb(215, 49, 49);
+}
+
+.doneBtn:hover, .delBtn:hover {
+    transform: scale(1.1);
+}
+
+.true {
+    background-color: rgba(19, 191, 71, 0.5);
+    color: black !important;
+}
+.clear {
+    background-color: red;
+    height: 10px;
+}
